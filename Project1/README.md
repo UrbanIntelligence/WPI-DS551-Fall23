@@ -13,14 +13,14 @@ from gym.version import VERSION
 print(VERSION)
 ```
 
-# DS595/CS525 2022 Fall Individual Project 1
+# DS551 2023 Fall Individual Project 1
 # Dynamic Programming of Markov Decision Process
 
 #### Starting Date
-* Week 2 Tuesday September 6, 2022(23:59)
+* Week 2 Tuesday September 5, 2023(23:59)
 
 #### Due Date
-* Week 4 Tuesday September 20, 2022(23:59)
+* Week 4 Tuesday September 19, 2023(23:59)
 
 #### Total Points
 * 100 (One Hundred)
