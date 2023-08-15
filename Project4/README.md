@@ -2,21 +2,21 @@
 
 #### Important Dates
 * Project Start
-  * **Week 10, Tuesday Nov 1, 2022**
+  * **Week 10, Tuesday Oct 31, 2023**
 * Project Proposal Due (Upload to Canvas)
-  * **Week 11, Tuesday Nov 8, 2022 (23:59)**
+  * **Week 11, Tuesday Nov 7, 2023 (23:59)**
   * *About 2 pages*
 * Project Progress Report Due
-  * **Week 13, Tuesday Nov 22, 2022 (23:59)**
+  * **Week 13, Tuesday Nov 21, 2023 (23:59)**
   * *About 5 pages*
 * Final Project Report Due
-  * **Week 15 Monday Dec 5, 2022 (23:59)**
+  * **Week 15 Monday Dec 4, 2023 (23:59)**
   * *About 10 pages*
   * *Code and trained model*
   * *Demo (Optional)*
   * *Self-and-cross evaluation form*
-* Poster Session (In person)
-  * **Week 15 Tuesday Dec 6, 2022**
+* Presentation Session (In person)
+  * **Week 15 Tuesday Dec 5, 2023**
 
 #### Total Points
 * 100 (One Hundred)
@@ -24,16 +24,8 @@
 ## Project Titles (To be updated!)
 | Team | Title|
 | :---: | :---: |
-|1. | Reinforcement Learning for Conformal Tumor Ablation |
-|2. | Implementing DQN and PPO on various ATARI environments and proposing a comparative analysis report for the algorithms |
-|3. |Comparing Modified Twin-Delayed DDPG with other RL-baseline algorithms on Half-Cheetah MuJoCo Simulation |
-|4. |2048 game |
-|5. |Reinforcement Learning for mingrid environment|
-|6. |Continuous Control of Mobile Robots for Navigation in Unseen Environment|
-|7. |Reinforcement Learning for Mobile Robots|
-|8. |Reinforcement Learning for CarRacing environment|
-|9. |Deep Reinforcement Learning for Decision Making in Autonomous Driving |
-|10. |Implementation of Reinforcement Learning algorithms on the Highway-Environment|
+|1. | ... |
+|2. | ... |
 
 
 
