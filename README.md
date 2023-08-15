@@ -1,2 +1,2 @@
-# DS595/CS525-RL-Projects-2022-Fall
-https://users.wpi.edu/~yli15/courses/DS595CS525Fall22/Assignments.html
+# DS551-RL-Projects-2023-Fall
+[https://users.wpi.edu/~yli15/courses/DS551Fall23/Assignments.html)
