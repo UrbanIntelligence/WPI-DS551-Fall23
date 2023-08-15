@@ -9,10 +9,10 @@ You can optionally update argument.py to add your own arguments (if needed).
 You can also optionally updated atari_wrapper.py (if needed, but not recommended). 
 
 #### Starating Date
-* Week 7, Tuesday Oct 11, 2022 (23:59)
+* Week 7, Tuesday Oct 10, 2023 (23:59)
 
 #### Due Date
-* Week 12, Tuesday Nov 15, 2022 (23:59) (extended from Week 10, Tuesday Nov 1, 2022 (23:59))
+* Week 10, Tuesday Oct 31, 2023 (23:59))
 
 #### Total Points
 * 100 (One Hundred)
@@ -28,23 +28,9 @@ In this project, we will provide a leaderboard and give **10** bonus points to t
   
   | Top | Date | Name | Score | Model |
   | :---: | :---:| :---: | :---: | :---: |
-  | 1  | 10/24/2022 | Palawat Busaranuvong | 317 | Prioritized DQN |
-  | 2  | 11/15/2022 | Amey Deshpande | 166.8 | ... |
-  | 2  | 11/15/2022 | Rane, Bhushan | 166.8 | ... |
-  | 3  | 11/15/2022 | Yash Patil | 113.14 | ... |
-  | 4  | 11/06/2022 | Yiwei Jiang | 96.45 | DDQN |
-  | 5  | 11/15/2022 | Aniket Patil | 92.18 | ... |
-  | 6  | 11/14/2022 | Samarth Shah | 85.39 | DDQN with Prioritized Replay |
-  | 7  | 11/15/2022 | Neet Mehulkumar Mehta | 80.39 | ... |
-  | 8  | 11/15/2022 | Noopur Koshta | 79.68 | ... |  
-  | 9  | 11/15/2022 | Kunal Nandanwar | 79.68 | ... |            
-  | 10  | 11/14/2022 | Aadesh Varude | 71.65 | Vanilla DQN |
-  | 11  | 11/1t/2022 | Rutwik Bonde | 69.52 | ... |  
-  | 12  | 11/07/2022 | Brown, Galen | 69.01 | Basic DQP with reward shaping |
-  | 13  | 11/5/2022  | Ryan Killea | 67.12 | ... |
-  | 14  | 11/14/2022  | Rushabh Kheni | 65.51 | Vanilla DQN with Deepmind architecture |  
-  | 15  | 10/30/2022 | Jack Ayvazian | 47.49 | Double DQN, DeepMind Architecture |  
-  
+  | 1  | ... | ... | ... | ... |
+  | 2  | ... | ... | ... | ... |
+  | 3  | ... | ... | ... | ... |
 
 
 * How to elvaluate
@@ -168,3 +154,24 @@ Please compress all the below files into a zipped file and submit the zip file (
   | 8  |4/6/2022 | Yiran Fang | 74 |
   | 9  |4/6/2022 | Zhentian Qian | 67 |
   | 10  |4/6/2022 | Anujay Sharma | 66 |
+
+## Leaderboard for Fall 2022**
+  | Top | Date | Name | Score | Model |
+  | :---: | :---:| :---: | :---: | :---: |
+  | 1  | 10/24/2022 | Palawat Busaranuvong | 317 | Prioritized DQN |
+  | 2  | 11/15/2022 | Amey Deshpande | 166.8 | ... |
+  | 2  | 11/15/2022 | Rane, Bhushan | 166.8 | ... |
+  | 3  | 11/15/2022 | Yash Patil | 113.14 | ... |
+  | 4  | 11/06/2022 | Yiwei Jiang | 96.45 | DDQN |
+  | 5  | 11/15/2022 | Aniket Patil | 92.18 | ... |
+  | 6  | 11/14/2022 | Samarth Shah | 85.39 | DDQN with Prioritized Replay |
+  | 7  | 11/15/2022 | Neet Mehulkumar Mehta | 80.39 | ... |
+  | 8  | 11/15/2022 | Noopur Koshta | 79.68 | ... |  
+  | 9  | 11/15/2022 | Kunal Nandanwar | 79.68 | ... |            
+  | 10  | 11/14/2022 | Aadesh Varude | 71.65 | Vanilla DQN |
+  | 11  | 11/1t/2022 | Rutwik Bonde | 69.52 | ... |  
+  | 12  | 11/07/2022 | Brown, Galen | 69.01 | Basic DQP with reward shaping |
+  | 13  | 11/5/2022  | Ryan Killea | 67.12 | ... |
+  | 14  | 11/14/2022  | Rushabh Kheni | 65.51 | Vanilla DQN with Deepmind architecture |  
+  | 15  | 10/30/2022 | Jack Ayvazian | 47.49 | Double DQN, DeepMind Architecture |  
+  
