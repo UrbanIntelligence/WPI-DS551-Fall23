@@ -17,10 +17,10 @@ print(VERSION)
 # Model-free Algorithms (Monte-Carlo and Temporal Difference)
 
 #### Starting Date
-* Week 5 Tuesday September 27, 2022 (23:59)
+* Week 5 Tuesday September 26, 2023 (23:59)
 
 #### Due Date
-* Week 7 Tuesday Oct 11, 2022 (23:59)
+* Week 7 Tuesday Oct 10, 2023 (23:59)
 
 #### Total Points
 * 100 (One Hundred)
