@@ -13,7 +13,7 @@ from gym.version import VERSION
 print(VERSION)
 ```
 
-# Individual Project 2
+# DS551/CS525 Individual Project 2
 # Model-free Algorithms (Monte-Carlo and Temporal Difference)
 
 #### Starting Date
