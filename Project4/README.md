@@ -1,4 +1,4 @@
-# Project 4 [Group (3-5 people)]
+# DS551/CS525 Project 4 [Group (3-5 people)]
 
 #### Important Dates
 * Project Start
