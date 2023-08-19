@@ -13,7 +13,7 @@ from gym.version import VERSION
 print(VERSION)
 ```
 
-# DS551 2023 Fall Individual Project 1
+# DS551/CS525 2023 Fall Individual Project 1
 # Dynamic Programming of Markov Decision Process
 
 #### Starting Date
