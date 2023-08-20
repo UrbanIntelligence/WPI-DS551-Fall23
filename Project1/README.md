@@ -49,7 +49,7 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 
 ## Setup
 * Install [Miniconda](https://www.python.org/downloads/)
-* Install [Python 3](https://www.python.org/downloads/)
+* Install [Python 3](https://www.python.org/downloads/), by default, it's Python 3.11.4 now (Aug 20, 2023).
 * Create virtual environment: conda create -n myenv python
 * Activate your virtual environment: conda activate myenv
 * Install gymnasium: pip install "gymnasium[atari]" (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
