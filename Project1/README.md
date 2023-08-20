@@ -56,7 +56,7 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 * Create virtual environment: conda create -n myenv python
 * Activate your virtual environment: conda activate myenv
 * Install gymnasium: pip install "gymnasium[atari]" (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
-* Install nose: pip install pynose (See [install nose]([https://pypi.org/project/pynose/])) 
+* Install nose: pip install pynose (See [install nose](https://pypi.org/project/pynose/)) 
 
 ## Guidelines
 * Implement functions in mdp_dp.py
