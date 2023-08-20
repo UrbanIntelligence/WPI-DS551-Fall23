@@ -17,7 +17,7 @@ In this assignment, you will be asked to implement policy iteration and value it
 
 
 <img src="/Project1/img/hw1.png" width="80%">
-<img src="/Project1/img/details_fl.png" width="80%">
+See more details of FrozenLake on [OpenAI Gymnasium page](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
 If your program works, the command line output should look like this.
 <img src="/Project1/img/UnitTest2023.png" width="80%">
 
