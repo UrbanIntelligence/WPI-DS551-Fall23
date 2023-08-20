@@ -1,9 +1,3 @@
-```diff
-- Note: Our environment code mdp_dp.py and mdp_dp_test.py were developed/updated for the latest version of OpenAI gymnasium (version 0.29.0). 
-
-- So when you install your gym, please use command line pip install "gymnasium[atari]". 
-```
-
 # DS551/CS525 2023 Fall Individual Project 1
 # Dynamic Programming of Markov Decision Process
 
@@ -57,6 +51,13 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 * Activate your virtual environment: conda activate myenv
 * Install gymnasium: pip install "gymnasium[atari]" (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
 * Install nose: pip install pynose (See [install nose](https://pypi.org/project/pynose/)) 
+
+```diff
+- Note: Our environment code mdp_dp.py and mdp_dp_test.py were developed/updated for the latest version of OpenAI gymnasium (version 0.29.0). 
+
+- So when you install your gym, please use command line pip install "gymnasium[atari]". 
+```
+
 
 ## Guidelines
 * Implement functions in mdp_dp.py
