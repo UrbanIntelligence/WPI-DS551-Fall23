@@ -68,6 +68,6 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 
 [Python Tutorial](https://www.geeksforgeeks.org/python-programming-language/)
 
-[OpenAI Gym Documentation](https://www.gymlibrary.dev/)
+[OpenAI Gym Documentation 1](https://gymnasium.farama.org/)
 
-[OpenAI Gym Tutorial](https://blog.paperspace.com/getting-started-with-openai-gym/)
+[OpenAI Gym Documentation 2](https://github.com/Farama-Foundation/Gymnasium)
