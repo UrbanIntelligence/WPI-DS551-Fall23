@@ -1,5 +1,7 @@
 ### MDP Value Iteration and Policy Iteration
 ### Reference: https://web.stanford.edu/class/cs234/assignment1/index.html 
+# Modified By Yanhua Li on 09/09/2022 for gym==0.25.2
+# Modified By Yanhua Li on 08/19/2023 for gymnasium==0.29.0
 import numpy as np
 
 np.set_printoptions(precision=3)
@@ -51,9 +53,9 @@ def policy_evaluation(P, nS, nA, policy, gamma=0.9, tol=1e-8):
     value_function = np.zeros(nS)
     ############################
     # YOUR IMPLEMENTATION HERE #
-    
+    #                          #
     ############################
-    return value_function
+    return value_function 
 
 
 def policy_improvement(P, nS, nA, value_from_policy, gamma=0.9):
@@ -73,10 +75,10 @@ def policy_improvement(P, nS, nA, value_from_policy, gamma=0.9):
         given value function.
     """
 
-    new_policy = np.ones([nS, nA]) / nA
+    new_policy = np.ones([nS, nA]) / nA # policy as a uniform distribution
 	############################
 	# YOUR IMPLEMENTATION HERE #
-
+    #                          #
 	############################
     return new_policy
 
@@ -102,7 +104,7 @@ def policy_iteration(P, nS, nA, policy, gamma=0.9, tol=1e-8):
     new_policy = policy.copy()
 	############################
 	# YOUR IMPLEMENTATION HERE #
-
+    #                          #
 	############################
     return new_policy, V
 
@@ -124,11 +126,11 @@ def value_iteration(P, nS, nA, V, gamma=0.9, tol=1e-8):
     policy_new: np.ndarray[nS,nA]
     V_new: np.ndarray[nS]
     """
-    
     V_new = V.copy()
+    policy_new = np.zeros([nS, nA])
     ############################
     # YOUR IMPLEMENTATION HERE #
-
+    #                          #
     ############################
     return policy_new, V_new
 
@@ -142,26 +144,25 @@ def render_single(env, policy, render = False, n_episodes=100):
     ----------
     env: gym.core.Environment
       Environment to play on. Must have nS, nA, and P as attributes.
-    policy: np.array of shape [nS, nA]
+    policy: np.array of shape [env.nS, env.nA]
       The action to take at a given state
     render: whether or not to render the game(it's slower to render the game)
     n_episodes: the number of episodes to play in the game. 
     Returns:
     ------
     total_rewards: the total number of rewards achieved in the game.
-    -----
-    Transition can be done using the function env.step(a) below with FIVE output parameters:
-    ob, r, done, info, prob = env.step(a) 
     """
     total_rewards = 0
     for _ in range(n_episodes):
-        ob = env.reset() # initialize the episode
+        ob, _ = env.reset() # initialize the episode
         done = False
-        while not done:
+        while not done: # using "not truncated" as well, when using time_limited wrapper.
             if render:
                 env.render() # render the game
             ############################
             # YOUR IMPLEMENTATION HERE #
+            #                          #
+            ############################
             
     return total_rewards
 
