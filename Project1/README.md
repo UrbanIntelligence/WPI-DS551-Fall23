@@ -18,7 +18,7 @@
 
 ## Goal
 
-In this assignment, you will be asked to implement policy iteration and value iteration for the Frozen Lake environment (FrozenLake-v1) from [OpenAI Gym](https://www.gymlibrary.dev/environments/toy_text/frozen_lake/) and play the game with the algorithms you implemented. This project will be completed in Python 3.
+In this assignment, you will be asked to implement policy iteration and value iteration for the Frozen Lake environment (FrozenLake-v1) from [OpenAI Gym](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) and play the game with the algorithms you implemented. This project will be completed in Python 3.
 
 
 
@@ -51,9 +51,12 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 
 
 ## Setup
+* Install [Miniconda](https://www.python.org/downloads/)
 * Install [Python 3](https://www.python.org/downloads/)
-* interminal, type: pip [install gym](https://pypi.org/project/gym/0.7.2/)
-* interminal, type: pip [install nose](https://pypi.org/project/nose/)
+* Create virtual environment: conda create -n myenv python
+* Activate your virtual environment: conda activate myenv
+* Install gymnasium: pip install "gymnasium[atari]" (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
+* Install nose: pip install pynose (See [install nose]([https://pypi.org/project/pynose/])) 
 
 ## Guidelines
 * Implement functions in mdp_dp.py
