@@ -18,8 +18,6 @@
 
 <img src="/Project1/img/hw1.png" width="80%">
 
-* In this assignment, you will be asked to implement policy iteration and value iteration for the Frozen Lake environment (FrozenLake-v1) from [OpenAI Gymnasium](https://gymnasium.farama.org/environments/toy_text/frozen_lake/) and play the game with the algorithms you implemented. This project will be completed in Python 3.
-
 * See more details of FrozenLake on [OpenAI Gymnasium](https://gymnasium.farama.org/environments/toy_text/frozen_lake/).
 
 
