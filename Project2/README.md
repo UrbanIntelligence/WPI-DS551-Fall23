@@ -26,6 +26,9 @@ Expected Output for project 2-2 (TD)
 * Note: If your code is correct, it will pass all the tests in most cases, but it may fail sometimes (because epsilon-greedy policy will produce randomness), so once you codes fail, please run the test file three times to see if the failure is caused by policy randomness or by your wrong code. (The correct code usually passes the all the tests within 3 times runing).
 * <span style="color:blue">**TA will run your code three times. You will get full credits if one of the tests passes.**</span><br/>
 
+## Setup
+* The same setup/virtual environment as that project 1. 
+
 ## Deliverables
 
 Please compress your mc.py and td.py files into a zip file (firstName_lastName_hw2.zip) and submit it to Canvas.
