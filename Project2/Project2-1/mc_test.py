@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import gym
+# Modified By Yanhua Li on 08/19/2023 for gymnasium==0.29.0
+import gymnasium as gym
 import numpy as np
 import sys
 from collections import defaultdict
@@ -12,8 +13,8 @@ from mc import *
     You could test the correctness of your code by
     typing 'nosetests -v mc_test.py' in the terminal
 """
-env = gym.make('Blackjack-v1',new_step_api=True)
-
+# env = gym.make('Blackjack-v1',new_step_api=True)
+env = gym.make('Blackjack-v1', natural=False, sab=False)
 #---------------------------------------------------------------
 
 
@@ -40,10 +41,14 @@ def test_initial_policy():
 def test_mc_prediction():
     '''mc_prediction (20 points)'''
     V_500k = mc_prediction(initial_policy, env, n_episodes=500000, gamma=1.0)
-
     boundaries1 = [(18, 4, False), (18, 6, False), (18, 8, False)]
     boundaries2 = [(18, 4, True), (18, 6, True), (18, 8, True)]
     boundaries3 = [(20, 4, False), (20, 6, False), (20, 8, False), (20, 4, True), (20, 6, True), (20, 8, True)]
+
+    # The numerical value of a hand can take on any value between 4 and 21 
+    # (18 possible values). Values of hands 12 or above can be either soft or hard, 
+    # so there are 28 total possible hand values. The dealer card can take on 10 
+    # distinct values. Therefore, our state space includes 28*10=280 possible states.
 
     assert len(V_500k) == 280
     for b in boundaries1:
@@ -58,6 +63,11 @@ def test_mc_prediction():
 
 def test_epsilon_greedy():
     '''epsilon_greedy (8 points)'''
+    '''Assuming there are 4 actions in the action space.
+    Then given epsilon as 0.1, there is a 0.9 chance to choose the best action a_{best},
+    and another 0.025 chance to still choose a_{best}, when it is randomly selected. 
+    So the total chance of choosing a_{best} is 0.925.
+    '''
     Q = defaultdict(lambda: np.zeros(4))
     state = (14, 7, True)
 
@@ -81,10 +91,10 @@ def test_mc_control_epsilon_greedy():
     for _ in range(2):
         Q_500k = mc_control_epsilon_greedy(env, n_episodes=1000000, gamma=1.0, epsilon=0.1)
         policy = dict((k, np.argmax(v)) for k, v in Q_500k.items())
-        print([policy[key] for key in boundaries_key])
+        # print([policy[key] for key in boundaries_key])
         if [policy[key] for key in boundaries_key] == boundaries_action:
             count += 1
 
-    print(count)
+    # print(count)
     assert len(Q_500k) == 280
     assert count >= 1

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# Modified By Yanhua Li on 08/19/2023 for gymnasium==0.29.0
 import numpy as np
 import random
 from collections import defaultdict
@@ -10,9 +11,6 @@ from collections import defaultdict
     The main goal of this problem is to get familar with temporal diference algorithm.
     You could test the correctness of your code 
     by typing 'nosetests -v td_test.py' in the terminal.
-    
-    You don't have to follow the comments to write your code. They are provided
-    as hints in case you need. 
 '''
 #-------------------------------------------------------------------------
 
@@ -23,7 +21,7 @@ def epsilon_greedy(Q, state, nA, epsilon = 0.1):
     -----------
     Q: dict()
         A dictionary  that maps from state -> action-values,
-        where Q[s][a] is the estimated action value corresponding to state s and action a. 
+        where A[s][a] is the estimated action value corresponding to state s and action a. 
     state: int
         current state
     nA: int
@@ -40,15 +38,12 @@ def epsilon_greedy(Q, state, nA, epsilon = 0.1):
     """
     ############################
     # YOUR IMPLEMENTATION HERE #
-
-
-
-
-
+    #                          #
     ############################
     return action
 
 def sarsa(env, n_episodes, gamma=1.0, alpha=0.5, epsilon=0.1):
+    '''20 points'''
     """On-policy TD control. Find an optimal epsilon-greedy policy.
     
     Parameters:
@@ -67,7 +62,7 @@ def sarsa(env, n_episodes, gamma=1.0, alpha=0.5, epsilon=0.1):
     --------
     Q: dict()
         A dictionary  that maps from state -> action-values,
-        where Q[s][a] is the estimated action value corresponding to state s and action a. 
+        where A[s][a] is the estimated action value corresponding to state s and action a. 
     Hints:
     -----
     You could consider decaying epsilon, i.e. epsilon = 0.99*epsilon during each episode.
@@ -79,40 +74,12 @@ def sarsa(env, n_episodes, gamma=1.0, alpha=0.5, epsilon=0.1):
     
     ############################
     # YOUR IMPLEMENTATION HERE #
-    
-    # loop n_episodes
-
-        # define decaying epsilon
-
-
-        # initialize the environment 
-
-        
-        # get an action from policy
-
-        # loop for each step of episode
-
-            # return a new state, reward and done
-
-            # get next action
-
-            
-            # TD update
-            # td_target
-
-            # td_error
-
-            # new Q
-
-            
-            # update state
-
-            # update action
-
+    #                          #
     ############################
     return Q
 
 def q_learning(env, n_episodes, gamma=1.0, alpha=0.5, epsilon=0.1):
+    '''20 points'''
     """Off-policy TD control. Find an optimal epsilon-greedy policy.
     
     Parameters:
@@ -131,7 +98,7 @@ def q_learning(env, n_episodes, gamma=1.0, alpha=0.5, epsilon=0.1):
     --------
     Q: dict()
         A dictionary  that maps from state -> action-values,
-        where Q[s][a] is the estimated action value corresponding to state s and action a. 
+        where A[s][a] is the estimated action value corresponding to state s and action a. 
     """
     # a nested dictionary that maps state -> (action -> action-value)
     # e.g. Q[state] = np.darrary(nA)
@@ -139,26 +106,6 @@ def q_learning(env, n_episodes, gamma=1.0, alpha=0.5, epsilon=0.1):
     
     ############################
     # YOUR IMPLEMENTATION HERE #
-    
-    # loop n_episodes
-
-        # initialize the environment 
-
-        
-        # loop for each step of episode
-
-            # get an action from policy
-            
-            # return a new state, reward and done
-            
-            # TD update
-            # td_target with best Q
-
-            # td_error
-
-            # new Q
-            
-            # update state
-
+    #                          #
     ############################
     return Q

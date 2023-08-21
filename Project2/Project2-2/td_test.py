@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import gym
+# Modified By Yanhua Li on 08/19/2023 for gymnasium==0.29.0
+import gymnasium as gym
 import numpy as np
 import sys
 from collections import defaultdict
@@ -13,7 +14,7 @@ from td import *
     typing 'nosetests -v td_test.py' in the terminal
 """
 
-env = gym.make('CliffWalking-v0',new_step_api=True)
+env = gym.make('CliffWalking-v0')
 #---------------------------------------------------------------
 
 
@@ -51,7 +52,7 @@ def test_sarsa():
     Q_s = sarsa(env, n_episodes=50000, gamma=1.0, alpha=0.01, epsilon=0.1)
     policy_q = np.array([np.argmax(Q_s[key]) if key in Q_s else -1 for key
                          in np.arange(48)]).reshape((4, 12))
-    print(policy_q)
+    # print(policy_q)
     assert np.allclose(policy_q.shape, (4, 12))
     assert np.allclose(policy_q[2:, ], test_policy)
 
@@ -66,6 +67,6 @@ def test_q_learning():
     test_policy = np.array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
                             [0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0]])
 
-    print(policy_q)
+    # print(policy_q)
     assert np.allclose(policy_q.shape, (4, 12))
     assert np.allclose(policy_q[2:, ], test_policy)
