@@ -48,12 +48,14 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 
 
 ## Setup
+* Recommended programming IDE: VS code (See [install VS code](https://code.visualstudio.com/)) 
 * Install [Miniconda](https://www.python.org/downloads/)
 * Install [Python 3](https://www.python.org/downloads/), by default, it's Python 3.11.4 now (Aug 20, 2023).
 * Create virtual environment: conda create -n myenv python
 * Activate your virtual environment: conda activate myenv
 * Install gymnasium: pip install "gymnasium[atari]" (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
-* Install nose: pip install pynose (See [install nose](https://pypi.org/project/pynose/)) 
+* Install nose: pip install pynose (See [install nose](https://pypi.org/project/pynose/))
+  
 
 ```diff
 - Note: Our environment code mdp_dp.py and mdp_dp_test.py were developed/updated for the latest version of OpenAI gymnasium (version 0.29.0). 
