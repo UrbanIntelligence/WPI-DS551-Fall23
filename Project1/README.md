@@ -48,7 +48,7 @@ Please compress your mdp_dp.py file into a zipped file (firstName_lastName_hw1.z
 
 
 ## Setup
-* Recommended programming IDE: VS code (See [install VS code](https://code.visualstudio.com/)) 
+* Recommended programming IDE (integrated development environment): VS code (See [install VS code](https://code.visualstudio.com/)) 
 * Install [Miniconda](https://www.python.org/downloads/)
 * Install [Python 3](https://www.python.org/downloads/), by default, it's Python 3.11.4 now (Aug 20, 2023).
 * Create virtual environment: conda create -n myenv python
