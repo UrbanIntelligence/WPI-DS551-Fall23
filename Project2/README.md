@@ -27,7 +27,7 @@ Expected Output for project 2-2 (TD)
 * <span style="color:blue">**TA will run your code three times. You will get full credits if one of the tests passes.**</span><br/>
 
 ## Setup
-* The same setup/virtual environment as that project 1. 
+* The same setup/virtual environment as that in project 1. 
 
 ## Deliverables
 
