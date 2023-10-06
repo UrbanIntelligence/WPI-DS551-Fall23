@@ -49,7 +49,10 @@ training DQN:
 * `$ python main.py --train_dqn`
 
 testing DQN:
-* `$ python test.py --test_dqn`
+* `$ python main.py --test_dqn`
+
+testing DQN while recording a video (recording video takes time, so usually you use this option when the number of testing episodes is small):
+* `$ python main.py --test_dqn --record_video`
 
 ## Goal
 In this project, you will be asked to implement DQN to play [Breakout](https://www.gymlibrary.dev/environments/atari/breakout/). This project will be completed in Python 3 using [Pytorch](https://pytorch.org/). The goal of your training is to get averaging reward in 100 episodes over **40 points** in **Breakout**, with OpenAI's Atari wrapper & unclipped reward. For more details, please see the [slides](https://docs.google.com/presentation/d/1jQ1mvFWxpoPJMebTxct-PDBzmGT3-HkVfUnZOzOAFsA/edit?usp=sharing).
