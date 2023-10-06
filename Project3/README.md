@@ -109,8 +109,8 @@ Please compress all the below files into a zipped file and submit the zip file (
 * [DQN Tutorial on Medium](https://medium.com/@jonathan_hui/rl-dqn-deep-q-network-e207751f7ae4)
 
 ## Tips for Using Turing GPUs or Google Cloud
-* [How to use GPUs on WPI Turing](https://docs.google.com/document/d/1i8YawKjEwg7qpfo7Io4C_FvSYiZxZjWMLkqHfcZMmaI/edit?usp=sharing)
-* [Google Cloud Platform](https://docs.google.com/document/d/1JfIG_yBi-xEIdT6KP1-eUpgLDoY3t2QrAKULB9yf01Q/edit?usp=sharing)
+* [How to use GPUs on WPI Turing](https://docs.google.com/document/d/1A9EImEe6v6on5IfRDuGcN9UOm6TBiFSIToJusxIpmO4/edit?usp=sharing)
+* [Google Cloud Platform](https://colab.google/)
 
   
 ## Leaderboard for Fall 2019** 
