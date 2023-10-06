@@ -1,12 +1,10 @@
 # DS551/CS525 Inidividual Project 3
 # Deep Q-learning Network(DQN)
-Please don't revise test.py, environment.py main.py and agent.py
+Please don't revise test.py, environment.py, atari_wrapper.py, main.py, and agent.py
 
 You work on the following files, including agent_dqn.py and dqn_model.py. 
 
 You can optionally update argument.py to add your own arguments (if needed).
-
-You can also optionally updated atari_wrapper.py (if needed, but not recommended). 
 
 #### Starating Date
 * Week 7, Tuesday Oct 10, 2023 (23:59)
@@ -84,7 +82,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 ## Grading
 * **Trained Model (50 points)**
-  * Getting averaging reward in 100 episodes over **40 points** in Breakout will get full credits. 
+  * Getting averaging reward in 100 episodes over **40 points** (with 5 lives) in Breakout will get full credits. 
   * For every average reward below 40, you will be taken off 2 points. i.e., you will be taken off 2 points, if getting averaging reward in 100 episodes is 39 and taken off 4 points, if averaging reward is 38, so on so forth.
 
 * **PDF Report (30 points)**
