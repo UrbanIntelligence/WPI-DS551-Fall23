@@ -40,20 +40,13 @@ In this project, we will provide a leaderboard and give **10** bonus points to t
 * Recommended programming IDE (integrated development environment): VS code (See [install VS code](https://code.visualstudio.com/)) 
 * Install [Miniconda](https://www.python.org/downloads/)
 * Install [Python 3](https://www.python.org/downloads/), by default, it's Python 3.11.4 now (Aug 20, 2023).
-* Create virtual environment: conda create -n myenv python
-* Activate your virtual environment: conda activate myenv
-* Install gymnasium: pip install opencv-python-headless gymnasium[atari] autorom[accept-rom-license] (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
+* Create virtual environment: `conda create -n myenv python`
+* Activate your virtual environment: `conda activate myenv`
+* Install gymnasium: `pip install opencv-python-headless gymnasium[atari] autorom[accept-rom-license]` (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
 * install pytorch: See [install pytorch](https://pytorch.org/get-started/locally/)
-* For the  Atari wrapper, install the following two items: pip install -U "ray[rllib]" ipywidgets
-* For video recording in testing, install the following three items: conda install -c conda-forge moviepy, conda install -c conda-forge ffmpeg, conda update ffmpeg
-* When testing, for nice output on the terminal, you need to install tqdm: conda install -c conda-forge tqdm
-
-## Installation
-Type the following command to install OpenAI Gym Atari environment in your **virutal environment**.
-
-`pip install opencv-python-headless gym==0.25.2 gym[atari] autorom[accept-rom-license]`
-
-Please refer to [OpenAI's page](https://github.com/openai/gym) if you have any problem while installing.
+* For the  Atari wrapper, install the following two items: `pip install -U "ray[rllib]" ipywidgets`
+* For video recording in testing, install the following three items: `conda install -c conda-forge moviepy`, `conda install -c conda-forge ffmpeg`, `conda update ffmpeg`
+* When testing, for nice output on the terminal, you need to install tqdm: `conda install -c conda-forge tqdm`
 
 ## How to run :
 training DQN:
