@@ -66,13 +66,6 @@ To be updated,
   * [Using Intrinsic Motivation to Solve Robotic Tasks with Sparse Rewards](https://jmichaux.github.io/intrinsic-motivation/) 
   * [Combining PPo and Evolutionary Strategies for Better Policy Optimization](http://cs229.stanford.edu/proj2018/poster/251.pdf)
   * [Apply Reinforcement Learning in Ads Bidding Optimization](http://cs229.stanford.edu/proj2018/poster/256.pdf)
-
-* [Magenta:](https://github.com/tensorflow/magenta) (Tensorflow based)
-   * Magenta is a research project exploring the role of machine learning in the process of creating art and music. Primarily this involves developing new deep learning and reinforcement learning algorithms for generating songs, images, drawings, and other materials. <br>
-   <p align="center">
-   <img src="img/magenta-logo-bg.png" width="35%"><br>
-   </p>
-   It is also an exploration in building smart tools and interfaces that allow artists and musicians to extend (not replace!) their processes using these models. Go spread your wings, create your unique content for Instagram or Soundcloud and become an influencer.
    
 * You can participate an open AI/RL competition
   * [MineRL competition 2019](https://www.aicrowd.com/challenges/neurips-2019-minerl-competition): A competition on sample-effiecient reinforcement learning using human priors.
