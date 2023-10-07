@@ -1,0 +1,13 @@
+#installl pytorch
+#opencv-python-headless
+#gym==0.29.0
+#gymnasium[atari]
+#autorom[accept-rom-license]
+#using the following command to install these packages
+pip install opencv-python-headless gymnasium[atari] autorom[accept-rom-license]
+#for the Atari wrapper, install the following two items
+pip install -U "ray[rllib]" ipywidgets
+#for video recording in testing
+conda install -c conda-forge moviepy, conda install -c conda-forge ffmpeg, conda update ffmpeg
+#for testing
+conda install -c conda-forge tqdm
