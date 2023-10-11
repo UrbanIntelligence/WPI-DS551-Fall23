@@ -39,8 +39,8 @@ In this project, we will provide a leaderboard and give **10** bonus points to t
 ## Setup
 * Recommended programming IDE (integrated development environment): VS code (See [install VS code](https://code.visualstudio.com/)) 
 * Install [Miniconda](https://www.python.org/downloads/)
-* Install [Python 3](https://www.python.org/downloads/), by default, it's Python 3.11.4 now (Aug 20, 2023).
-* Create virtual environment: `conda create -n myenv python`
+* Install [Python 3](https://www.python.org/downloads/), by default, it's Python 3.11.5.
+* Create virtual environment: `conda create -n myenv python==3.11.5`
 * Activate your virtual environment: `conda activate myenv`
 * Install gymnasium: `pip install opencv-python-headless gymnasium[atari] autorom[accept-rom-license]` (See [install gymnasium](https://github.com/Farama-Foundation/Gymnasium))
 * install pytorch: See [install pytorch](https://pytorch.org/get-started/locally/)
