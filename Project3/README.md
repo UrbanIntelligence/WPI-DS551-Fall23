@@ -26,7 +26,7 @@ In this project, we will provide a leaderboard and give **10** bonus points to t
   
   | Top | Date | Name | Score | Model |
   | :---: | :---:| :---: | :---: | :---: |
-  | 1  | ... | ... | ... | ... |
+  | 1  | 11/7/2023 | Antony Garcia | 426 | DQN |
   | 2  | ... | ... | ... | ... |
   | 3  | ... | ... | ... | ... |
 
