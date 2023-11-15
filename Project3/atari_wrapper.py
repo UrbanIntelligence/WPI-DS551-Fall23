@@ -177,10 +177,12 @@ class EpisodicLifeEnv(gym.Wrapper):
         gym.Wrapper.__init__(self, env)
         self.lives = 0
         self.was_real_terminated = True
+        self.truncated = True
 
     def step(self, action):
         obs, reward, terminated, truncated, info = self.env.step(action)
         self.was_real_terminated = terminated
+        self.truncated = truncated
         # check current lives, make loss of life terminal,
         # then update lives to handle bonus lives
         lives = self.env.unwrapped.ale.lives()
@@ -197,7 +199,8 @@ class EpisodicLifeEnv(gym.Wrapper):
         This way all states are still reachable even though lives are episodic,
         and the learner need not know about any of this behind-the-scenes.
         """
-        if self.was_real_terminated:
+        # if self.was_real_terminated
+        if self.was_real_terminated or self.truncated:
             obs, info = self.env.reset(**kwargs)
         else:
             # no-op step to advance from terminal/lost life state
