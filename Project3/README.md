@@ -27,8 +27,8 @@ In this project, we will provide a leaderboard and give **10** bonus points to t
   | Top | Date | Name | Score | Model |
   | :---: | :---:| :---: | :---: | :---: |
   | 1  | 11/7/2023 | Antony Garcia | 426 | DQN |
-  | 2  | 11/13/2023 | Daniel Moyer | 377.5 | ... |
-  | 3  | 11/14/2023 | Martha Cash | 363.57 | DQN |
+  | 2  | 11/15/2023 | Anas AlRifai | 402.72 | DDQN | 
+  | 3  | 11/1/2023 | Daniel Moyer | 377.5 | ... |
 
 
 * How to elvaluate
