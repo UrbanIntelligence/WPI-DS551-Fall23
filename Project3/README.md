@@ -27,9 +27,16 @@ In this project, we will provide a leaderboard and give **10** bonus points to t
   | Top | Date | Name | Score | Model |
   | :---: | :---:| :---: | :---: | :---: |
   | 1  | 11/7/2023 | Antony Garcia | 426 | DQN |
-  | 2  | 11/15/2023 | Anas AlRifai | 402.72 | DDQN | 
-  | 3  | 11/1/2023 | Daniel Moyer | 377.5 | ... |
-
+  | 2  | 11/15/2023 | Anas AlRifai | 402.72 | DDQN |
+  | 3  | 11/14/2023 | Maanav Iyengar | 384.32 | ... |
+  | 4  | 11/1/2023 | Daniel Moyer | 377.5 | ... |
+  | 5  | 11/19/2023 | Xinyi Fang | 367.27 |  Dueling Double Deep Q-Network |
+  | 6  | 11/15/2023 | Martha Cash | 363.57 | DQN |
+  | 7  | 11/18/2023 | Zhuang Luo | 329.4 | DQN |
+  | 8  | 11/14/2023 | Yiming Liu | 315.81 | DQN |
+  | 9  | 11/14/2023 | Aikeremu Aixilafu | 193.8 | ... |
+  | 10 | 11/15/2023 | Michael O'Connor | 158.68 | ... |
+  
 
 * How to elvaluate
   * You should submit your lastest trained model and python code. TA will run your code to make sure the result is consistent with your screenshot. 
